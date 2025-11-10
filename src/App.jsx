@@ -3,7 +3,7 @@ import './App.css';
 import List from './components/List/List';
 import Winner from './components/Winner/Winner';
 
-import jakesData from './data/jakes.json';
+import jakesData from './data/jakes.js';
 
 function App() {
   const [jakes, setJakes] = useState(jakesData);
